@@ -1,0 +1,53 @@
+body{
+    color: #000;
+    font-family: sans-serif;
+    padding:0px;
+    background: #98BEF0;
+}
+
+.stopwatch{
+    margin: auto auto;
+    width: 402px;
+    height: 186px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    border: 5px solid #000;
+    overflow: hidden;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.digit{
+    width: 55px;
+}
+
+.digit-space{
+    float: left;
+    padding:5px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.controls{
+    margin: 0 auto;
+    width: 262px;
+    display: block;
+    clear: both;
+}
+
+.controls button{
+    background-color: #fff;
+    border: 2px solid #000000;
+    color: #000000;
+    font-size: 14px;
+    padding: 10px;
+}
+.controls button:hover{
+    background-color: #98BEF0;
+    border: 2px solid #98BEF0;
+    color: #fff;
+}
